@@ -1,0 +1,25 @@
+.tydzien {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+    }
+    
+    .tydzien button {
+    background-color: #0fc9d6;
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;    
+    background-color: #0fc9d6;
+    color: #000;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    border: none;
+    }
+    
+    .tydzien button:hover {
+    background-color: #0b9ba5;
+    color: #0d1f20;
+    }

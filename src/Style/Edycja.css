@@ -1,0 +1,62 @@
+body {
+    background-color: #868686;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Lekcje {
+  background-color: #383838;
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.EdycjaLekcji {
+  margin-top: 20px;
+  text-align: left;
+  padding: 20px;
+  background-color: #868686;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.EdycjaLekcji input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #f7f7f7;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.EdycjaLekcji label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.EdycjaLekcji button {
+  background-color: #0fc9d6;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 20px;
+}

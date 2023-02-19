@@ -1,0 +1,61 @@
+.odliczanie {
+    background-color: #868686;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .class_title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    }
+    
+    .iks {
+    cursor: pointer;
+    background-color: none;
+    border: none;
+    outline: none;
+    }
+    
+    #delete_img {
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    background-color: #0fc9d6;
+    padding: 4px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    }
+
+    #delete_img:hover {
+        background-color: #0b9ca6;
+    }
+    
+    .edycja {
+    cursor: pointer;
+    font-weight: 600;    
+    background-color: #0fc9d6;
+    color: #000;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    }
+    
+    .edycja:hover {
+        background-color: #0b9ba5;
+        color: #0d1f20;
+    }
+    
+    .operacje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    }
+    
+    
